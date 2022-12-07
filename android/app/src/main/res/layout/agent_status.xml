@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/agentStatus_widgetFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="left">
+
+    <ImageView
+        android:id="@+id/agentstatus_frameImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/agentstatus_background"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/image_layout_Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/widget_margin"
+        android:layout_marginTop="@dimen/widget_margin"
+        android:layout_marginEnd="@dimen/widget_margin"
+        android:layout_marginBottom="@dimen/widget_margin"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="55"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:padding="0dp"
+            tools:ignore="UselessLeaf">
+
+            <ImageView
+                android:id="@+id/agentstatus_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/agentstatus_shadowoutlineprovider"
+                android:elevation="5dp"
+                android:outlineProvider="background"
+                android:scaleType="fitStart"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ready"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="45">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/agentstatus_agentState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_layout_Linear"
+        android:fontFamily="sans-serif-medium"
+        android:lines="1"
+        android:paddingLeft="@dimen/widget_margin"
+        android:paddingRight="@dimen/widget_margin"
+        android:text="@string/unknown"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/agentstatus_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agentstatus_agentState"
+        android:fontFamily="sans-serif-medium"
+        android:lines="1"
+        android:paddingLeft="@dimen/widget_margin"
+        android:paddingRight="@dimen/widget_margin"
+        android:singleLine="true"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        tools:ignore="SpUsage" />
+
+    <Chronometer
+        android:id="@+id/agentstatus_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/agentstatus_reason"
+        android:fontFamily="sans-serif-light"
+        android:lines="1"
+        android:paddingLeft="@dimen/widget_margin"
+        android:paddingRight="@dimen/widget_margin"
+        android:paddingBottom="@dimen/widget_margin"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#99000000"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/agentstatus_placer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/agentstatus_reason"
+        android:fontFamily="sans-serif-medium"
+        android:lines="1"
+        android:paddingLeft="@dimen/widget_margin"
+        android:paddingRight="@dimen/widget_margin"
+        android:singleLine="true"
+        android:text="DarkPattern"
+        android:textColor="@android:color/transparent"
+        android:textSize="10dp"
+        tools:ignore="SpUsage" />
+
+</RelativeLayout>

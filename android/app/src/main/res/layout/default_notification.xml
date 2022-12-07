@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <LinearLayout
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="7dp"
+        android:paddingHorizontal="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="2.5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+            >
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="App name"
+                    android:letterSpacing="0.01"
+                    android:textSize="12dp"
+                    android:textAppearance="@style/TextAppearance.Compat.Notification.Info"
+                />
+
+                <LinearLayout
+                    android:id="@+id/service_wrapper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:text="•"
+                        android:textSize="12dp"
+                        android:textAppearance="@style/TextAppearance.Compat.Notification.Info"
+                    />
+
+                    <TextView
+                        android:id="@+id/service"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Service"
+                        android:textSize="12dp"
+                        android:textAppearance="@style/TextAppearance.Compat.Notification.Info"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:text=""
+                android:textSize="14dp"
+                android:lineSpacingMultiplier="1"
+                android:textFontWeight="500"
+                android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+
+                android:maxLines="1"
+                android:ellipsize="end"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+
+            <TextView
+                android:id="@+id/body"
+                android:text=""
+                android:textSize="14dp"
+                android:lineSpacingMultiplier="1"
+
+                android:maxLines="3"
+                android:ellipsize="end"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Compat.Notification.Info"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/actions"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1.5dp"
+            android:layout_marginLeft="-2.5dp"
+            android:orientation="horizontal"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

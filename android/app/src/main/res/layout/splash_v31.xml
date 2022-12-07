@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+        >
+
+                <ImageView
+                        android:layout_width="288dp"
+                        android:layout_height="288dp"
+
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/launch_icon" />
+
+                <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentBottom="true"
+
+                        android:gravity="center_horizontal"
+                        android:text="Connecting..."
+                        android:textColor="#888"
+                        android:textSize="18sp" />
+
+        </RelativeLayout>
+
+</LinearLayout>

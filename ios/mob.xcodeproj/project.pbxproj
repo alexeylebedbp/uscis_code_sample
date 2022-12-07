@@ -1,0 +1,2022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* mobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mobTests.m */; };
+		04528E3F959D4D1DA703C0DC /* libRNCAsyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FD094BE397408B8AEBFBD4 /* libRNCAsyncStorage.a */; };
+		0798B94B1166488D83DD4642 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A966903F11944CBB57D7D65 /* libRNSound.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* mobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mobTests.m */; };
+		4546A46561E64A2294F7C8B7 /* libRNCPushNotificationIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1799205F7A49428C4AA15D /* libRNCPushNotificationIOS.a */; };
+		4733FA00EE02A421A5F8281B /* libPods-mob-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322089E5646E86B2E718C53 /* libPods-mob-tvOS.a */; };
+		5B0A72A3EEC1457B9431FA2A /* libRNScreens-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C61C1406AC1946F3A2591CB7 /* libRNScreens-tvOS.a */; };
+		6214264D2683A87100D23BD8 /* RCTWidgetModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6214264C2683A87100D23BD8 /* RCTWidgetModule.m */; };
+		621426522683AD5700D23BD8 /* WidgetKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621426512683AD5700D23BD8 /* WidgetKitHelper.swift */; };
+		6272509C25C41FAF0008E16C /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 626641A725C1D9A500ED81B5 /* beep.mp3 */; };
+		6284474725277C08004D1E00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6284474625277C08004D1E00 /* GoogleService-Info.plist */; };
+		629CACED26A9EE7600298B62 /* splash_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 629CACEC26A9EE7600298B62 /* splash_animation.json */; };
+		62CE662B2762B4C300304ED2 /* RCTCallModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CE662A2762B4C300304ED2 /* RCTCallModule.m */; };
+		62E9C53E27F38DBE00663985 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9C53C27F38DBE00663985 /* LottieAnimation.swift */; };
+		62ED6D2D25E81D9B00894D5F /* RCTSoundModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED6D2125E8179100894D5F /* RCTSoundModule.m */; };
+		62F6369A2680B53D00BF0FD4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F636992680B53D00BF0FD4 /* WidgetKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		62F6369C2680B53D00BF0FD4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F6369B2680B53D00BF0FD4 /* SwiftUI.framework */; };
+		62F6369F2680B53D00BF0FD4 /* AgentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6369E2680B53D00BF0FD4 /* AgentStatus.swift */; };
+		62F636A22680B54000BF0FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F636A12680B54000BF0FD4 /* Assets.xcassets */; };
+		62F636A42680B54000BF0FD4 /* AgentStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 62F636A02680B53D00BF0FD4 /* AgentStatus.intentdefinition */; };
+		62F636A52680B54000BF0FD4 /* AgentStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 62F636A02680B53D00BF0FD4 /* AgentStatus.intentdefinition */; };
+		62F636A82680B54000BF0FD4 /* AgentStatusExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 62F636982680B53D00BF0FD4 /* AgentStatusExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		62FED20F269FAD360068C588 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FED20E269FAD360068C588 /* MainViewController.m */; };
+		62FED21626A084AE0068C588 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FED21526A084AE0068C588 /* SplashView.xib */; };
+		6304605028FA4565007E6CCA /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 6304604F28FA4565007E6CCA /* message.png */; };
+		6304605128FA4574007E6CCA /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 6304604F28FA4565007E6CCA /* message.png */; };
+		6304605828FE0814007E6CCA /* initial_msg_notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6304605728FE0814007E6CCA /* initial_msg_notification.wav */; };
+		6304605928FE0826007E6CCA /* initial_msg_notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6304605728FE0814007E6CCA /* initial_msg_notification.wav */; };
+		630E1B5624F9E36F00BC8C4B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E1B5524F9E36F00BC8C4B /* NotificationService.swift */; };
+		630E1B5A24F9E36F00BC8C4B /* PushNotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 630E1B5324F9E36F00BC8C4B /* PushNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63B137D2263A37D4004CA05A /* RCTUserDefaultsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B137D1263A37D4004CA05A /* RCTUserDefaultsModule.m */; };
+		63B2F5CA26718F9E0061DCA4 /* RCTMemoryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2F5C926718F9E0061DCA4 /* RCTMemoryModule.m */; };
+		63C66CA226CC6CEF0005FE60 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C66CA126CC6CEE0005FE60 /* call.png */; };
+		63CE78752887D8A5007E7D1A /* RCTContactsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CE78742887D8A5007E7D1A /* RCTContactsModule.m */; };
+		63CE78772887D8E7007E7D1A /* RCTContactsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CE78762887D8E7007E7D1A /* RCTContactsModule.swift */; };
+		76DD1F319F0C476A9B892067 /* libRNCMaskedView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C34683931B42D7A0853970 /* libRNCMaskedView.a */; };
+		86E0C04843A04416BD0ABCCF /* libRNVoipPushNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEFE2A8AD2D492EB4F6C546 /* libRNVoipPushNotification.a */; };
+		87889DFBED014DD1916F2C6E /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DE8D3AC6AA41969122D7A7 /* libRNScreens.a */; };
+		94091D0226965359004601D5 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94091D0126965359004601D5 /* NotificationViewController.swift */; };
+		94091D0526965359004601D5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94091D0326965359004601D5 /* MainInterface.storyboard */; };
+		94091D0926965359004601D5 /* PushNotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 94091CFB26965359004601D5 /* PushNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94D9AF7326A24C990097C0F8 /* acw.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9AF7126A24C990097C0F8 /* acw.png */; };
+		94D9AF7426A24C990097C0F8 /* away.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9AF7226A24C990097C0F8 /* away.png */; };
+		94D9AF7526A24CA40097C0F8 /* acw.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9AF7126A24C990097C0F8 /* acw.png */; };
+		94D9AF7626A24CA40097C0F8 /* away.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D9AF7226A24C990097C0F8 /* away.png */; };
+		94D9AF7726A24E430097C0F8 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94091CFC26965359004601D5 /* UserNotifications.framework */; };
+		94D9AF7A26A24E450097C0F8 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94091CFE26965359004601D5 /* UserNotificationsUI.framework */; };
+		94E49CA5269E0B6F00CF67F0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E49CA4269E0B6F00CF67F0 /* SwiftUIView.swift */; };
+		94E88F052491928D00767E25 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E88F042491928D00767E25 /* Dummy.swift */; };
+		B004355385899D8CA1732442 /* libPods-mob-mobTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DACBEE978F3A34E0124D2AEC /* libPods-mob-mobTests.a */; };
+		B6E531DFF80F45229259326D /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1647DDFFE0D5406EAAD56F98 /* libRNGestureHandler.a */; };
+		C235868AF598F6E92A778739 /* libPods-mob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF03E63EA7EB15CE1578BFA2 /* libPods-mob.a */; };
+		C316344F19B64AF2A33B4DBD /* libRNCallKeep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D10B251BA58546A5A90E59D8 /* libRNCallKeep.a */; };
+		D080FB1273CF4315B6A2006F /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A7C475E7BF4101A3CF0073 /* libRNGestureHandler-tvOS.a */; };
+		DD718F4AF7554104F4A10B02 /* libPods-mob-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C093B0A5A27208D15B6437 /* libPods-mob-tvOSTests.a */; };
+		DFF800BDEE7940BCAD6147B5 /* libRNReanimated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCAECCFDAAF4BA9B1FCCE5B /* libRNReanimated.a */; };
+		E3E0C0D1E8164C0EAD489511 /* libRNReanimated-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE622A40886945149195ED20 /* libRNReanimated-tvOS.a */; };
+		E55C375023D5398A00ACF198 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55C371F23D5398A00ACF198 /* CallKit.framework */; };
+		E58DA2E8236105A5003C5DBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2E7236105A5003C5DBA /* AVFoundation.framework */; };
+		E58DA2EA236105AF003C5DBA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2E9236105AF003C5DBA /* AudioToolbox.framework */; };
+		E58DA2EC236105B9003C5DBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2EB236105B9003C5DBA /* CoreGraphics.framework */; };
+		E58DA2EE236105C2003C5DBA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2ED236105C2003C5DBA /* GLKit.framework */; };
+		E58DA2F0236105D0003C5DBA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2EF236105D0003C5DBA /* CoreAudio.framework */; };
+		E58DA2F2236105DA003C5DBA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2F1236105DA003C5DBA /* CoreVideo.framework */; };
+		E58DA2F4236105E5003C5DBA /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2F3236105E5003C5DBA /* libc.tbd */; };
+		E58DA2F6236105EF003C5DBA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2F5236105EF003C5DBA /* libc++.tbd */; };
+		E58DA2F8236105F8003C5DBA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E58DA2F7236105F8003C5DBA /* libsqlite3.tbd */; };
+		E5FE07DE23D28FA1005F7C23 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FE07DD23D28FA1005F7C23 /* PushKit.framework */; };
+		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		F2E95DB9789C45E7804CF2DF /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59774BF7F9D64F329198745B /* libRNSVG-tvOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = mob;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "mob-tvOS";
+		};
+		62F636A62680B54000BF0FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F636972680B53D00BF0FD4;
+			remoteInfo = AgentStatusExtension;
+		};
+		630E1B5824F9E36F00BC8C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630E1B5224F9E36F00BC8C4B;
+			remoteInfo = PushNotificationService;
+		};
+		94091D0726965359004601D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94091CFA26965359004601D5;
+			remoteInfo = PushNotificationContent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		630E1B5B24F9E36F00BC8C4B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				62F636A82680B54000BF0FD4 /* AgentStatusExtension.appex in Embed App Extensions */,
+				630E1B5A24F9E36F00BC8C4B /* PushNotificationService.appex in Embed App Extensions */,
+				94091D0926965359004601D5 /* PushNotificationContent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* mobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* mobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobTests.m; sourceTree = "<group>"; };
+		0D5E6F702F324507A2FAACCA /* libRCTWebRTC.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWebRTC.a; sourceTree = "<group>"; };
+		1322089E5646E86B2E718C53 /* libPods-mob-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mob-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* BrightPatternMobileAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightPatternMobileAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mob/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mob/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mob/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mob/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mob/main.m; sourceTree = "<group>"; };
+		14A7C475E7BF4101A3CF0073 /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
+		1647DDFFE0D5406EAAD56F98 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
+		1D8512A197AF20F4797BC20A /* Pods-mob-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-mob-tvOSTests/Pods-mob-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		24C34683931B42D7A0853970 /* libRNCMaskedView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCMaskedView.a; sourceTree = "<group>"; };
+		2A966903F11944CBB57D7D65 /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSound.a; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* mob-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mob-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* mob-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mob-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF95F0F589F4389D782FF94 /* Pods-mob-mobTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob-mobTests.debug.xcconfig"; path = "Target Support Files/Pods-mob-mobTests/Pods-mob-mobTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34FD094BE397408B8AEBFBD4 /* libRNCAsyncStorage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCAsyncStorage.a; sourceTree = "<group>"; };
+		43C093B0A5A27208D15B6437 /* libPods-mob-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mob-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FCAECCFDAAF4BA9B1FCCE5B /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNReanimated.a; sourceTree = "<group>"; };
+		59774BF7F9D64F329198745B /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; };
+		6214264826838DC300D23BD8 /* AgentStatusExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AgentStatusExtension.entitlements; sourceTree = "<group>"; };
+		6214264B2683A86700D23BD8 /* RCTWidgetModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTWidgetModule.h; sourceTree = "<group>"; };
+		6214264C2683A87100D23BD8 /* RCTWidgetModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWidgetModule.m; sourceTree = "<group>"; };
+		621426512683AD5700D23BD8 /* WidgetKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetKitHelper.swift; sourceTree = "<group>"; };
+		621426532683AD9400D23BD8 /* WidgetKitHelper-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WidgetKitHelper-Swift.h"; sourceTree = "<group>"; };
+		626641A725C1D9A500ED81B5 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		6284474625277C08004D1E00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		629CACEC26A9EE7600298B62 /* splash_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash_animation.json; sourceTree = "<group>"; };
+		62CE66292762B4C300304ED2 /* RCTCallModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCallModule.h; sourceTree = "<group>"; };
+		62CE662A2762B4C300304ED2 /* RCTCallModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCallModule.m; sourceTree = "<group>"; };
+		62E9C53C27F38DBE00663985 /* LottieAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		62E9C53D27F38DBE00663985 /* LottieAnimation-Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LottieAnimation-Swift.h"; sourceTree = "<group>"; };
+		62ED6D2025E8179100894D5F /* RCTSoundModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTSoundModule.h; sourceTree = "<group>"; };
+		62ED6D2125E8179100894D5F /* RCTSoundModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTSoundModule.m; sourceTree = "<group>"; };
+		62F636982680B53D00BF0FD4 /* AgentStatusExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AgentStatusExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F636992680B53D00BF0FD4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		62F6369B2680B53D00BF0FD4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		62F6369E2680B53D00BF0FD4 /* AgentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentStatus.swift; sourceTree = "<group>"; };
+		62F636A02680B53D00BF0FD4 /* AgentStatus.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AgentStatus.intentdefinition; sourceTree = "<group>"; };
+		62F636A12680B54000BF0FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F636A32680B54000BF0FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FED20D269FAD360068C588 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		62FED20E269FAD360068C588 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		62FED21526A084AE0068C588 /* SplashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashView.xib; sourceTree = "<group>"; };
+		6304604F28FA4565007E6CCA /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		6304605728FE0814007E6CCA /* initial_msg_notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = initial_msg_notification.wav; sourceTree = "<group>"; };
+		630E1B5324F9E36F00BC8C4B /* PushNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PushNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		630E1B5524F9E36F00BC8C4B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		630E1B5724F9E36F00BC8C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B137CB263A3446004CA05A /* PushNotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationService.entitlements; sourceTree = "<group>"; };
+		63B137D1263A37D4004CA05A /* RCTUserDefaultsModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTUserDefaultsModule.m; sourceTree = "<group>"; };
+		63B137D9263A3862004CA05A /* RCTUserDefaultsModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTUserDefaultsModule.h; sourceTree = "<group>"; };
+		63B2F5C826718F470061DCA4 /* RCTMemoryModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMemoryModule.h; sourceTree = "<group>"; };
+		63B2F5C926718F9E0061DCA4 /* RCTMemoryModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTMemoryModule.m; sourceTree = "<group>"; };
+		63C66CA126CC6CEE0005FE60 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		63CE78742887D8A5007E7D1A /* RCTContactsModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTContactsModule.m; sourceTree = "<group>"; };
+		63CE78762887D8E7007E7D1A /* RCTContactsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTContactsModule.swift; sourceTree = "<group>"; };
+		6A1799205F7A49428C4AA15D /* libRNCPushNotificationIOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCPushNotificationIOS.a; sourceTree = "<group>"; };
+		6C2F2AC9B3E1E2A5AB64E02F /* Pods-mob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob.release.xcconfig"; path = "Target Support Files/Pods-mob/Pods-mob.release.xcconfig"; sourceTree = "<group>"; };
+		8168B69E28F8471FB671C7A3 /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
+		94091CFB26965359004601D5 /* PushNotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PushNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		94091CFC26965359004601D5 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		94091CFE26965359004601D5 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		94091D0126965359004601D5 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		94091D0426965359004601D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		94091D0626965359004601D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949753DA269F763E00CC5135 /* PushNotificationContent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationContent.entitlements; sourceTree = "<group>"; };
+		94D9AF7126A24C990097C0F8 /* acw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acw.png; sourceTree = "<group>"; };
+		94D9AF7226A24C990097C0F8 /* away.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = away.png; sourceTree = "<group>"; };
+		94E49CA4269E0B6F00CF67F0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		94E88F042491928D00767E25 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		97D90B915E404FB292277278 /* libRNInCallManager.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNInCallManager.a; sourceTree = "<group>"; };
+		AE622A40886945149195ED20 /* libRNReanimated-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNReanimated-tvOS.a"; sourceTree = "<group>"; };
+		B6971D2DC50B6526A345A0A4 /* Pods-mob-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-mob-tvOSTests/Pods-mob-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1DE8D3AC6AA41969122D7A7 /* libRNScreens.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNScreens.a; sourceTree = "<group>"; };
+		C61C1406AC1946F3A2591CB7 /* libRNScreens-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNScreens-tvOS.a"; sourceTree = "<group>"; };
+		C8A4DE7D2B63A96F8064CE38 /* Pods-mob-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob-tvOS.release.xcconfig"; path = "Target Support Files/Pods-mob-tvOS/Pods-mob-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		CF03E63EA7EB15CE1578BFA2 /* libPods-mob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF64A3B13D4D43ACACC73F0A /* libRNCSafeAreaContext.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCSafeAreaContext.a; sourceTree = "<group>"; };
+		D10B251BA58546A5A90E59D8 /* libRNCallKeep.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCallKeep.a; sourceTree = "<group>"; };
+		D47589AE321DE58EB50491C6 /* Pods-mob-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-mob-tvOS/Pods-mob-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DACBEE978F3A34E0124D2AEC /* libPods-mob-mobTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mob-mobTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEFE2A8AD2D492EB4F6C546 /* libRNVoipPushNotification.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVoipPushNotification.a; sourceTree = "<group>"; };
+		E01AE79B9DCE7C5CD3F03509 /* Pods-mob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob.debug.xcconfig"; path = "Target Support Files/Pods-mob/Pods-mob.debug.xcconfig"; sourceTree = "<group>"; };
+		E55C371F23D5398A00ACF198 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		E58C057323AAB3DD00A1A478 /* mob.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = mob.entitlements; path = mob/mob.entitlements; sourceTree = "<group>"; };
+		E58DA2BD236104E5003C5DBA /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
+		E58DA2E7236105A5003C5DBA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E58DA2E9236105AF003C5DBA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E58DA2EB236105B9003C5DBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E58DA2ED236105C2003C5DBA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E58DA2EF236105D0003C5DBA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E58DA2F1236105DA003C5DBA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E58DA2F3236105E5003C5DBA /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		E58DA2F5236105EF003C5DBA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E58DA2F7236105F8003C5DBA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E5FE07DD23D28FA1005F7C23 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FA32F62B5F9F3B7A577FE219 /* Pods-mob-mobTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mob-mobTests.release.xcconfig"; path = "Target Support Files/Pods-mob-mobTests/Pods-mob-mobTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB39B17C0F2844148032A9B8 /* libRNCookieManagerIOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCookieManagerIOS.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B004355385899D8CA1732442 /* libPods-mob-mobTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58DA2F8236105F8003C5DBA /* libsqlite3.tbd in Frameworks */,
+				E58DA2F6236105EF003C5DBA /* libc++.tbd in Frameworks */,
+				E58DA2F4236105E5003C5DBA /* libc.tbd in Frameworks */,
+				E58DA2F2236105DA003C5DBA /* CoreVideo.framework in Frameworks */,
+				E58DA2F0236105D0003C5DBA /* CoreAudio.framework in Frameworks */,
+				E58DA2EE236105C2003C5DBA /* GLKit.framework in Frameworks */,
+				E58DA2EC236105B9003C5DBA /* CoreGraphics.framework in Frameworks */,
+				E58DA2EA236105AF003C5DBA /* AudioToolbox.framework in Frameworks */,
+				E58DA2E8236105A5003C5DBA /* AVFoundation.framework in Frameworks */,
+				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
+				E5FE07DE23D28FA1005F7C23 /* PushKit.framework in Frameworks */,
+				04528E3F959D4D1DA703C0DC /* libRNCAsyncStorage.a in Frameworks */,
+				0798B94B1166488D83DD4642 /* libRNSound.a in Frameworks */,
+				4546A46561E64A2294F7C8B7 /* libRNCPushNotificationIOS.a in Frameworks */,
+				86E0C04843A04416BD0ABCCF /* libRNVoipPushNotification.a in Frameworks */,
+				E55C375023D5398A00ACF198 /* CallKit.framework in Frameworks */,
+				C316344F19B64AF2A33B4DBD /* libRNCallKeep.a in Frameworks */,
+				B6E531DFF80F45229259326D /* libRNGestureHandler.a in Frameworks */,
+				DFF800BDEE7940BCAD6147B5 /* libRNReanimated.a in Frameworks */,
+				87889DFBED014DD1916F2C6E /* libRNScreens.a in Frameworks */,
+				76DD1F319F0C476A9B892067 /* libRNCMaskedView.a in Frameworks */,
+				C235868AF598F6E92A778739 /* libPods-mob.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */,
+				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
+				F2E95DB9789C45E7804CF2DF /* libRNSVG-tvOS.a in Frameworks */,
+				D080FB1273CF4315B6A2006F /* libRNGestureHandler-tvOS.a in Frameworks */,
+				E3E0C0D1E8164C0EAD489511 /* libRNReanimated-tvOS.a in Frameworks */,
+				5B0A72A3EEC1457B9431FA2A /* libRNScreens-tvOS.a in Frameworks */,
+				4733FA00EE02A421A5F8281B /* libPods-mob-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD718F4AF7554104F4A10B02 /* libPods-mob-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F636952680B53D00BF0FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F6369C2680B53D00BF0FD4 /* SwiftUI.framework in Frameworks */,
+				62F6369A2680B53D00BF0FD4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630E1B5024F9E36F00BC8C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94091CF826965359004601D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D9AF7A26A24E450097C0F8 /* UserNotificationsUI.framework in Frameworks */,
+				94D9AF7726A24E430097C0F8 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* mobTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* mobTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = mobTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* mob */ = {
+			isa = PBXGroup;
+			children = (
+				629CACEC26A9EE7600298B62 /* splash_animation.json */,
+				62ED6D2025E8179100894D5F /* RCTSoundModule.h */,
+				62FED21526A084AE0068C588 /* SplashView.xib */,
+				62ED6D2125E8179100894D5F /* RCTSoundModule.m */,
+				E58C057323AAB3DD00A1A478 /* mob.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				62FED20D269FAD360068C588 /* MainViewController.h */,
+				62FED20E269FAD360068C588 /* MainViewController.m */,
+				62E9C53D27F38DBE00663985 /* LottieAnimation-Swift.h */,
+				62E9C53C27F38DBE00663985 /* LottieAnimation.swift */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				94E88F042491928D00767E25 /* Dummy.swift */,
+				6284474625277C08004D1E00 /* GoogleService-Info.plist */,
+				63B137D9263A3862004CA05A /* RCTUserDefaultsModule.h */,
+				63B137D1263A37D4004CA05A /* RCTUserDefaultsModule.m */,
+				62CE66292762B4C300304ED2 /* RCTCallModule.h */,
+				62CE662A2762B4C300304ED2 /* RCTCallModule.m */,
+				63B2F5C826718F470061DCA4 /* RCTMemoryModule.h */,
+				63B2F5C926718F9E0061DCA4 /* RCTMemoryModule.m */,
+				6214264B2683A86700D23BD8 /* RCTWidgetModule.h */,
+				6214264C2683A87100D23BD8 /* RCTWidgetModule.m */,
+				621426532683AD9400D23BD8 /* WidgetKitHelper-Swift.h */,
+				621426512683AD5700D23BD8 /* WidgetKitHelper.swift */,
+				63CE78742887D8A5007E7D1A /* RCTContactsModule.m */,
+				63CE78762887D8E7007E7D1A /* RCTContactsModule.swift */,
+			);
+			name = mob;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55C371F23D5398A00ACF198 /* CallKit.framework */,
+				E5FE07DD23D28FA1005F7C23 /* PushKit.framework */,
+				E58DA2F7236105F8003C5DBA /* libsqlite3.tbd */,
+				E58DA2F5236105EF003C5DBA /* libc++.tbd */,
+				E58DA2F3236105E5003C5DBA /* libc.tbd */,
+				E58DA2F1236105DA003C5DBA /* CoreVideo.framework */,
+				E58DA2EF236105D0003C5DBA /* CoreAudio.framework */,
+				E58DA2ED236105C2003C5DBA /* GLKit.framework */,
+				E58DA2EB236105B9003C5DBA /* CoreGraphics.framework */,
+				E58DA2E9236105AF003C5DBA /* AudioToolbox.framework */,
+				E58DA2E7236105A5003C5DBA /* AVFoundation.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				1322089E5646E86B2E718C53 /* libPods-mob-tvOS.a */,
+				43C093B0A5A27208D15B6437 /* libPods-mob-tvOSTests.a */,
+				CF03E63EA7EB15CE1578BFA2 /* libPods-mob.a */,
+				DACBEE978F3A34E0124D2AEC /* libPods-mob-mobTests.a */,
+				62F636992680B53D00BF0FD4 /* WidgetKit.framework */,
+				62F6369B2680B53D00BF0FD4 /* SwiftUI.framework */,
+				94091CFC26965359004601D5 /* UserNotifications.framework */,
+				94091CFE26965359004601D5 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F6369D2680B53D00BF0FD4 /* AgentStatus */ = {
+			isa = PBXGroup;
+			children = (
+				94E49CA4269E0B6F00CF67F0 /* SwiftUIView.swift */,
+				62F6369E2680B53D00BF0FD4 /* AgentStatus.swift */,
+				62F636A02680B53D00BF0FD4 /* AgentStatus.intentdefinition */,
+				62F636A12680B54000BF0FD4 /* Assets.xcassets */,
+				62F636A32680B54000BF0FD4 /* Info.plist */,
+			);
+			path = AgentStatus;
+			sourceTree = "<group>";
+		};
+		630E1B5424F9E36F00BC8C4B /* PushNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				6304605728FE0814007E6CCA /* initial_msg_notification.wav */,
+				6304604F28FA4565007E6CCA /* message.png */,
+				94D9AF7126A24C990097C0F8 /* acw.png */,
+				63C66CA126CC6CEE0005FE60 /* call.png */,
+				94D9AF7226A24C990097C0F8 /* away.png */,
+				63B137CB263A3446004CA05A /* PushNotificationService.entitlements */,
+				630E1B5524F9E36F00BC8C4B /* NotificationService.swift */,
+				630E1B5724F9E36F00BC8C4B /* Info.plist */,
+			);
+			path = PushNotificationService;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				6214264826838DC300D23BD8 /* AgentStatusExtension.entitlements */,
+				626641A725C1D9A500ED81B5 /* beep.mp3 */,
+				E58DA2BD236104E5003C5DBA /* WebRTC.framework */,
+				13B07FAE1A68108700A75B9A /* mob */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* mobTests */,
+				630E1B5424F9E36F00BC8C4B /* PushNotificationService */,
+				62F6369D2680B53D00BF0FD4 /* AgentStatus */,
+				94091D0026965359004601D5 /* PushNotificationContent */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E558447F2335E6F80099CB76 /* Recovered References */,
+				FA6FF20FF75B762E0ADFE0EA /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* BrightPatternMobileAgent.app */,
+				00E356EE1AD99517003FC87E /* mobTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* mob-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* mob-tvOSTests.xctest */,
+				630E1B5324F9E36F00BC8C4B /* PushNotificationService.appex */,
+				62F636982680B53D00BF0FD4 /* AgentStatusExtension.appex */,
+				94091CFB26965359004601D5 /* PushNotificationContent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94091D0026965359004601D5 /* PushNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				949753DA269F763E00CC5135 /* PushNotificationContent.entitlements */,
+				94091D0126965359004601D5 /* NotificationViewController.swift */,
+				94091D0326965359004601D5 /* MainInterface.storyboard */,
+				94091D0626965359004601D5 /* Info.plist */,
+			);
+			path = PushNotificationContent;
+			sourceTree = "<group>";
+		};
+		E558447F2335E6F80099CB76 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				8168B69E28F8471FB671C7A3 /* libRNSVG.a */,
+				59774BF7F9D64F329198745B /* libRNSVG-tvOS.a */,
+				34FD094BE397408B8AEBFBD4 /* libRNCAsyncStorage.a */,
+				0D5E6F702F324507A2FAACCA /* libRCTWebRTC.a */,
+				2A966903F11944CBB57D7D65 /* libRNSound.a */,
+				97D90B915E404FB292277278 /* libRNInCallManager.a */,
+				6A1799205F7A49428C4AA15D /* libRNCPushNotificationIOS.a */,
+				DEEFE2A8AD2D492EB4F6C546 /* libRNVoipPushNotification.a */,
+				D10B251BA58546A5A90E59D8 /* libRNCallKeep.a */,
+				FB39B17C0F2844148032A9B8 /* libRNCookieManagerIOS.a */,
+				CF64A3B13D4D43ACACC73F0A /* libRNCSafeAreaContext.a */,
+				1647DDFFE0D5406EAAD56F98 /* libRNGestureHandler.a */,
+				4FCAECCFDAAF4BA9B1FCCE5B /* libRNReanimated.a */,
+				C1DE8D3AC6AA41969122D7A7 /* libRNScreens.a */,
+				24C34683931B42D7A0853970 /* libRNCMaskedView.a */,
+				14A7C475E7BF4101A3CF0073 /* libRNGestureHandler-tvOS.a */,
+				AE622A40886945149195ED20 /* libRNReanimated-tvOS.a */,
+				C61C1406AC1946F3A2591CB7 /* libRNScreens-tvOS.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		FA6FF20FF75B762E0ADFE0EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E01AE79B9DCE7C5CD3F03509 /* Pods-mob.debug.xcconfig */,
+				6C2F2AC9B3E1E2A5AB64E02F /* Pods-mob.release.xcconfig */,
+				2FF95F0F589F4389D782FF94 /* Pods-mob-mobTests.debug.xcconfig */,
+				FA32F62B5F9F3B7A577FE219 /* Pods-mob-mobTests.release.xcconfig */,
+				D47589AE321DE58EB50491C6 /* Pods-mob-tvOS.debug.xcconfig */,
+				C8A4DE7D2B63A96F8064CE38 /* Pods-mob-tvOS.release.xcconfig */,
+				B6971D2DC50B6526A345A0A4 /* Pods-mob-tvOSTests.debug.xcconfig */,
+				1D8512A197AF20F4797BC20A /* Pods-mob-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* mobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mobTests" */;
+			buildPhases = (
+				4105B84A93803F8E4695C974 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				39650F6EB33C38B7F3274916 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = mobTests;
+			productName = mobTests;
+			productReference = 00E356EE1AD99517003FC87E /* mobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* mob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mob" */;
+			buildPhases = (
+				19B583B1999529A63AF8F848 /* [CP] Check Pods Manifest.lock */,
+				94D03C5E24943D260061E443 /* Patch 62.2 Asset Resolver - Remove if React Native != 62.2 */,
+				E5AE64CA236B4BB700D4FAE5 /* ShellScript */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6321321F23C80CC2004ABDF8 /* ShellScript */,
+				630E1B5B24F9E36F00BC8C4B /* Embed App Extensions */,
+				627C46D125278980005EC3DB /* ShellScript */,
+				4A0389E0D133B3704DEDA70A /* [CP] Embed Pods Frameworks */,
+				51077BC1693DB7A3D26DF537 /* [CP-User] [RNFB] Core Configuration */,
+				AC44C4C4AE3708A1DDE75130 /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630E1B5924F9E36F00BC8C4B /* PBXTargetDependency */,
+				62F636A72680B54000BF0FD4 /* PBXTargetDependency */,
+				94091D0826965359004601D5 /* PBXTargetDependency */,
+			);
+			name = mob;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* BrightPatternMobileAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* mob-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mob-tvOS" */;
+			buildPhases = (
+				16A33605D46BF9C04298220E /* [CP] Check Pods Manifest.lock */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob-tvOS";
+			productName = "mob-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* mob-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* mob-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mob-tvOSTests" */;
+			buildPhases = (
+				F2379CDE6574139877D42F1B /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "mob-tvOSTests";
+			productName = "mob-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* mob-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62F636972680B53D00BF0FD4 /* AgentStatusExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F636AB2680B54000BF0FD4 /* Build configuration list for PBXNativeTarget "AgentStatusExtension" */;
+			buildPhases = (
+				62F636942680B53D00BF0FD4 /* Sources */,
+				62F636952680B53D00BF0FD4 /* Frameworks */,
+				62F636962680B53D00BF0FD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgentStatusExtension;
+			productName = AgentStatusExtension;
+			productReference = 62F636982680B53D00BF0FD4 /* AgentStatusExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		630E1B5224F9E36F00BC8C4B /* PushNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630E1B5E24F9E36F00BC8C4B /* Build configuration list for PBXNativeTarget "PushNotificationService" */;
+			buildPhases = (
+				630E1B4F24F9E36F00BC8C4B /* Sources */,
+				630E1B5024F9E36F00BC8C4B /* Frameworks */,
+				630E1B5124F9E36F00BC8C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotificationService;
+			productName = PushNotificationService;
+			productReference = 630E1B5324F9E36F00BC8C4B /* PushNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		94091CFA26965359004601D5 /* PushNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94091D0A26965359004601D5 /* Build configuration list for PBXNativeTarget "PushNotificationContent" */;
+			buildPhases = (
+				94091CF726965359004601D5 /* Sources */,
+				94091CF826965359004601D5 /* Frameworks */,
+				94091CF926965359004601D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotificationContent;
+			productName = PushNotificationContent;
+			productReference = 94091CFB26965359004601D5 /* PushNotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Brightpattern;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3V7465795F;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 3V7465795F;
+						LastSwiftMigration = 1150;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					62F636972680B53D00BF0FD4 = {
+						CreatedOnToolsVersion = 12.5;
+						DevelopmentTeam = 3V7465795F;
+						ProvisioningStyle = Automatic;
+					};
+					630E1B5224F9E36F00BC8C4B = {
+						CreatedOnToolsVersion = 11.5;
+						DevelopmentTeam = 3V7465795F;
+						ProvisioningStyle = Automatic;
+					};
+					94091CFA26965359004601D5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						DevelopmentTeam = 3V7465795F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* mob */,
+				00E356ED1AD99517003FC87E /* mobTests */,
+				2D02E47A1E0B4A5D006451C7 /* mob-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* mob-tvOSTests */,
+				630E1B5224F9E36F00BC8C4B /* PushNotificationService */,
+				62F636972680B53D00BF0FD4 /* AgentStatusExtension */,
+				94091CFA26965359004601D5 /* PushNotificationContent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6304605928FE0826007E6CCA /* initial_msg_notification.wav in Resources */,
+				6304605128FA4574007E6CCA /* message.png in Resources */,
+				6272509C25C41FAF0008E16C /* beep.mp3 in Resources */,
+				62FED21626A084AE0068C588 /* SplashView.xib in Resources */,
+				94D9AF7626A24CA40097C0F8 /* away.png in Resources */,
+				94D9AF7526A24CA40097C0F8 /* acw.png in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				629CACED26A9EE7600298B62 /* splash_animation.json in Resources */,
+				6284474725277C08004D1E00 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F636962680B53D00BF0FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F636A22680B54000BF0FD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630E1B5124F9E36F00BC8C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D9AF7326A24C990097C0F8 /* acw.png in Resources */,
+				6304605828FE0814007E6CCA /* initial_msg_notification.wav in Resources */,
+				94D9AF7426A24C990097C0F8 /* away.png in Resources */,
+				63C66CA226CC6CEF0005FE60 /* call.png in Resources */,
+				6304605028FA4565007E6CCA /* message.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94091CF926965359004601D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94091D0526965359004601D5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		16A33605D46BF9C04298220E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mob-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19B583B1999529A63AF8F848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		39650F6EB33C38B7F3274916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mob-mobTests/Pods-mob-mobTests-frameworks.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mob-mobTests/Pods-mob-mobTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4105B84A93803F8E4695C974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mob-mobTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A0389E0D133B3704DEDA70A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mob/Pods-mob-frameworks.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mob/Pods-mob-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51077BC1693DB7A3D26DF537 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		627C46D125278980005EC3DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		6321321F23C80CC2004ABDF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Target architectures: $ARCHS\"\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\nFRAMEWORK_TMP_PATH=\"$FRAMEWORK_EXECUTABLE_PATH-tmp\"\n\n# remove simulator's archs if location is not simulator's directory\ncase \"${TARGET_BUILD_DIR}\" in\n*\"iphonesimulator\")\n    echo \"No need to remove archs\"\n    ;;\n*)\n    if $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"i386\") ; then\n    lipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"i386\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"i386 architecture removed\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n    if $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"x86_64\") ; then\n    lipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"x86_64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"x86_64 architecture removed\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n    ;;\nesac\n\necho \"Completed for executable $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\ndone\n";
+		};
+		94D03C5E24943D260061E443 /* Patch 62.2 Asset Resolver - Remove if React Native != 62.2 */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Patch 62.2 Asset Resolver - Remove if React Native != 62.2";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n../scripts/Patch-ios-62-2.sh\n";
+		};
+		AC44C4C4AE3708A1DDE75130 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		E5AE64CA236B4BB700D4FAE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n   open \"$SRCROOT/../scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+		};
+		F2379CDE6574139877D42F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mob-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* mobTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F636A52680B54000BF0FD4 /* AgentStatus.intentdefinition in Sources */,
+				62CE662B2762B4C300304ED2 /* RCTCallModule.m in Sources */,
+				62ED6D2D25E81D9B00894D5F /* RCTSoundModule.m in Sources */,
+				63B2F5CA26718F9E0061DCA4 /* RCTMemoryModule.m in Sources */,
+				6214264D2683A87100D23BD8 /* RCTWidgetModule.m in Sources */,
+				62E9C53E27F38DBE00663985 /* LottieAnimation.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				62FED20F269FAD360068C588 /* MainViewController.m in Sources */,
+				63CE78752887D8A5007E7D1A /* RCTContactsModule.m in Sources */,
+				94E88F052491928D00767E25 /* Dummy.swift in Sources */,
+				621426522683AD5700D23BD8 /* WidgetKitHelper.swift in Sources */,
+				63B137D2263A37D4004CA05A /* RCTUserDefaultsModule.m in Sources */,
+				63CE78772887D8E7007E7D1A /* RCTContactsModule.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* mobTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F636942680B53D00BF0FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F636A42680B54000BF0FD4 /* AgentStatus.intentdefinition in Sources */,
+				62F6369F2680B53D00BF0FD4 /* AgentStatus.swift in Sources */,
+				94E49CA5269E0B6F00CF67F0 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630E1B4F24F9E36F00BC8C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630E1B5624F9E36F00BC8C4B /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94091CF726965359004601D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94091D0226965359004601D5 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* mob */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* mob-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+		62F636A72680B54000BF0FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F636972680B53D00BF0FD4 /* AgentStatusExtension */;
+			targetProxy = 62F636A62680B54000BF0FD4 /* PBXContainerItemProxy */;
+		};
+		630E1B5924F9E36F00BC8C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630E1B5224F9E36F00BC8C4B /* PushNotificationService */;
+			targetProxy = 630E1B5824F9E36F00BC8C4B /* PBXContainerItemProxy */;
+		};
+		94091D0826965359004601D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94091CFA26965359004601D5 /* PushNotificationContent */;
+			targetProxy = 94091D0726965359004601D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94091D0326965359004601D5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94091D0426965359004601D5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF95F0F589F4389D782FF94 /* Pods-mob-mobTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3V7465795F;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = mobTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mob.app/mob";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA32F62B5F9F3B7A577FE219 /* Pods-mob-mobTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 3V7465795F;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = mobTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mob.app/mob";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01AE79B9DCE7C5CD3F03509 /* Pods-mob.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mob/mob.entitlements;
+				CURRENT_PROJECT_VERSION = 2.65001;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3V7465795F;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../../../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../../../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = mob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Microphone\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCClipboard\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCallKeep\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNDeviceInfo\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFastImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSound\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVoipPushNotification\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactNativeIncallManager\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-blur\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cameraroll\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cookies\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-document-picker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-image-picker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-netinfo\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-slider\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-version-number\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-viewpager\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-webrtc\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-webview\"",
+				);
+				MARKETING_VERSION = 3.0.4;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightpattern.mobileapplication;
+				PRODUCT_NAME = BrightPatternMobileAgent;
+				SWIFT_OBJC_BRIDGING_HEADER = "mob-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2F2AC9B3E1E2A5AB64E02F /* Pods-mob.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mob/mob.entitlements;
+				CURRENT_PROJECT_VERSION = 2.65001;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 3V7465795F;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../../../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../../../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = mob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.0.4;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightpattern.mobileapplication;
+				PRODUCT_NAME = BrightPatternMobileAgent;
+				SWIFT_OBJC_BRIDGING_HEADER = "mob-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47589AE321DE58EB50491C6 /* Pods-mob-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = "mob-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mob-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A4DE7D2B63A96F8064CE38 /* Pods-mob-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = "mob-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mob-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6971D2DC50B6526A345A0A4 /* Pods-mob-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = "mob-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mob-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mob-tvOS.app/mob-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8512A197AF20F4797BC20A /* Pods-mob-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../node_modules/@react-native-community/async-storage/ios",
+					"$(SRCROOT)/../node_modules/react-native-webrtc/ios/RCTWebRTC/**",
+					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
+					"$(SRCROOT)/../node_modules/react-native-incall-manager/ios/RNInCallManager",
+					"$(SRCROOT)/../../../node_modules/@react-native-community/push-notification-ios/ios",
+					"$(SRCROOT)/../node_modules/react-native-svg/ios/**",
+					"$(SRCROOT)/../../../node_modules/react-native-voip-push-notification/ios/RNVoipPushNotification",
+					"$(SRCROOT)/../../../node_modules/react-native-callkeep/ios/RNCallKeep",
+					"$(SRCROOT)/../../../node_modules/react-native-cookies/ios/RNCookieManagerIOS",
+					"$(SRCROOT)/../node_modules/react-native-safe-area-context/ios/SafeAreaView",
+					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-reanimated/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-screens/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/masked-view/ios",
+				);
+				INFOPLIST_FILE = "mob-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.mob-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mob-tvOS.app/mob-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		62F636A92680B54000BF0FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AgentStatusExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.64151;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3V7465795F;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AgentStatus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.2/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MARKETING_VERSION = 2.17.66;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightpattern.mobileapplication.AgentStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		62F636AA2680B54000BF0FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AgentStatusExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.64151;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3V7465795F;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AgentStatus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.2/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MARKETING_VERSION = 2.17.66;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightpattern.mobileapplication.AgentStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		630E1B5C24F9E36F00BC8C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationService/PushNotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.64151;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3V7465795F;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PushNotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-$(SWIFT_VERSION)/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MARKETING_VERSION = 2.17.66;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightpattern.mobileapplication.PushNotificationService-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		630E1B5D24F9E36F00BC8C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationService/PushNotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.64151;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3V7465795F;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PushNotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.17.66;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brightpattern.mobileapplication.PushNotificationService-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-$(SWIFT_VERSION)/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-$(SWIFT_VERSION)/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94091D0B26965359004601D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationContent/PushNotificationContent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.64151;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3V7465795F;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PushNotificationContent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.17.66;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightpattern.mobileapplication.PushNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		94091D0C26965359004601D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationContent/PushNotificationContent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.64151;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3V7465795F;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PushNotificationContent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.17.66;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightpattern.mobileapplication.PushNotificationContent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mob-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "mob-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F636AB2680B54000BF0FD4 /* Build configuration list for PBXNativeTarget "AgentStatusExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F636A92680B54000BF0FD4 /* Debug */,
+				62F636AA2680B54000BF0FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630E1B5E24F9E36F00BC8C4B /* Build configuration list for PBXNativeTarget "PushNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630E1B5C24F9E36F00BC8C4B /* Debug */,
+				630E1B5D24F9E36F00BC8C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94091D0A26965359004601D5 /* Build configuration list for PBXNativeTarget "PushNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94091D0B26965359004601D5 /* Debug */,
+				94091D0C26965359004601D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

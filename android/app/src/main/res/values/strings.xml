@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bright Pattern Mobile</string>
+    <string name="unknown">Unknown</string>
+    <string name="missed_call">Missed Call</string>
+    <string name="agentStatus_agentState">Unknown</string>
+    <string name="add_widget">Add widget</string>
+</resources>
